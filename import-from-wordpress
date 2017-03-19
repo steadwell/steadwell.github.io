@@ -1,0 +1,15 @@
+require "jekyll-import"; JekyllImport::Importers::WordPress.run({
+      "dbname"   => "f5bal6x2_wp_dot_net",
+      "user"     => "f5bal6x2_dbadm",
+      "password" => "0911sd01SD)!",
+      "host"     => "fusionculinairecom.ipagemysql.com",
+      "socket"   => "",
+      "table_prefix"   => "wp_",
+      "clean_entities" => true,
+      "comments"       => true,
+      "categories"     => true,
+      "tags"           => true,
+      "more_excerpt"   => true,
+      "more_anchor"    => true,
+      "status"         => ["publish"]
+    })'
